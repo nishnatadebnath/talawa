@@ -42,7 +42,11 @@ class ChatPage extends StatelessWidget {
         floatingActionButton: FloatingActionButton(
           onPressed: () {
             Navigator.push(context,
+<<<<<<< HEAD
                 MaterialPageRoute(builder: (context) => SelectContact()));
+=======
+                MaterialPageRoute(builder: (context) => const SelectContact()));
+>>>>>>> be9e55f423cff22fe3ce196c45a457395b2a914e
           },
           child: const Icon(Icons.add),
         ),
